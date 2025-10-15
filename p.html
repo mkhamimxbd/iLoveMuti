@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body>
+  <button onclick="clickme()">click me</button>
+  <p id="demo"></p>
+  <script>
+    const arr = ["Hamim", "Muti", "Mim", "Nanu", "Kaka"]
+    let demo = document.getElementById("demo")
+
+     function randomNumber(max) {
+      return Math.floor(Math.random() * max)
+     }
+
+     function clickme() {
+      let selectedArr = randomNumber(arr.length)
+      demo.innerHTML = arr[selectedArr]
+     }
+
+  </script>
+</body>
+</html>

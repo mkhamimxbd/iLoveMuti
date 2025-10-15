@@ -1,0 +1,101 @@
+body {
+  font-family: funnel display, roboto, arial;
+  background-color: #fdcffa;
+  color: #4e56c0;
+  
+}
+
+.body-flex-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  margin-bottom: 100px;
+}
+.body-flex-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 34vh;
+}
+
+
+.welcome-header {
+  text-align: center;
+  font-size: 38px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.affirmation-sentence {
+  font-family: pacifico, funnel display, roboto, arial;
+  font-size: 32px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.words-of-affirmation-btn {
+  font-size: 12px;
+  padding: 12px;
+  border: 5px solid #4e56c0;
+  border-radius: 10px;
+  background-color: #9b5de0;
+  color:  #fdcffa;
+  font-weight: bold;
+}
+
+.words-of-affirmation-btn:hover {
+  background-color: #b27dee77;
+  color: #786079;
+  border: 5px solid #4e56c077;
+  cursor: pointer;
+}
+
+.words-of-affirmation-btn:active {
+  border: 5px solid #ffbb00;
+  font-size: 11px;
+}
+
+.copyright {
+  font-size: 10px;
+  color: gray;
+  text-align: center;
+}
+ @media (max-width: 600px) {
+
+  .body-flex-2 {
+    height: 21vh;
+  }
+
+  .welcome-header {
+    font-size: 34px;
+    margin-top: 4px;
+  }
+
+  .affirmation-sentence {
+    font-size: 44px;
+  }
+
+  .words-of-affirmation-btn {
+    font-size: 18px;
+  }
+
+  .words-of-affirmation-btn:hover {
+    border: 5px solid #4e56c0;
+    background-color: #9b5de0;
+    color:  #fdcffa;
+  }
+
+  .words-of-affirmation-btn:active {
+  border: 5px solid #ffbb00;
+  font-size: 17px;
+  }
+
+ }
