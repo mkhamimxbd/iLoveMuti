@@ -2,36 +2,34 @@ body {
   font-family: funnel display, roboto, arial;
   background-color: #fdcffa;
   color: #4e56c0;
-  
+  height: 100%;
 }
 
-.body-flex-1 {
+.wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 50vh;
-  margin-bottom: 100px;
+  height: 100vh;
 }
-.body-flex-2 {
+
+main {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 34vh;
-}
-
-
-.welcome-header {
-  text-align: center;
-  font-size: 38px;
+  flex-direction: column;
+  flex: 1;
+  
 }
 
 .main {
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  height: 100%;
 }
+
+
+
 
 .affirmation-sentence {
   font-family: pacifico, funnel display, roboto, arial;
@@ -39,6 +37,10 @@ body {
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
+  margin: 0;
+  flex-grow: 0.3;
+  padding: 8px;
+  
 }
 
 .words-of-affirmation-btn {
@@ -63,24 +65,10 @@ body {
   font-size: 11px;
 }
 
-.copyright {
-  font-size: 10px;
-  color: gray;
-  text-align: center;
-}
  @media (max-width: 600px) {
 
-  .body-flex-2 {
-    height: 21vh;
-  }
-
-  .welcome-header {
-    font-size: 34px;
-    margin-top: 4px;
-  }
-
   .affirmation-sentence {
-    font-size: 44px;
+    font-size: 36px;
   }
 
   .words-of-affirmation-btn {

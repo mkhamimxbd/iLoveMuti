@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Funnel+Display:wght@300..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+    rel="stylesheet">
+  <title>I Love Muti</title>
+</head>
+
+<body>
+  <header>
+    <div id="navbar"></div>
+  </header>
+  <main>
+    <div class="all-contents">
+    <div class="contents">
+      <div class="content coming-soon">
+        <div class="thumbnail">
+          <a href="random-affirmation.html">
+          <img src="images/random-affirmation-thumbnail.png" alt="content" class="content-thumbnail present-content">
+        </a>
+          <span class="new-content">NEW</span>
+        </div>
+        <div class="content-name">Random Affirmation texts</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Text Notes</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Audio Notes</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Video Notes</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Letters</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Countdowns</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Virtual Date Idea Generator</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Daily Quiz</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Group Chat</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Memory Throwbacks</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Mini Games</div>
+      </div>
+      <div class="content coming-soon">
+        <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+        <div class="content-name">Ask me a Question</div>
+      </div>
+    </div>
+  </div>
+  </main>
+  <footer>
+    <div id="footer"></div>
+  </footer>
+
+  <script>
+    fetch('/nav.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('navbar').innerHTML = html);
+    fetch('/footer.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('footer').innerHTML = html);
+  </script>
+</body>
+
+</html>
