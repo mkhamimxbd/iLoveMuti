@@ -1,6 +1,9 @@
 body {
   font-family: funnel display, roboto, arial;
-  background-color: #fdcffa;
+  /* background-color: #fdcffa; */
+  background-image: url("/images/pink-bg-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #4e56c0;
   height: 100%;
 }

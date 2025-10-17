@@ -142,7 +142,7 @@ const affirmationArr = [
 let affirmationSentence = document.getElementById("affirmation-sentence")
 let typingInterval
 const music = new
-Audio("Music/Somewhere only we know.mp3")
+Audio("Music/piano-1.mp3")
 
 fetch('/nav.html')
       .then(res => res.text())

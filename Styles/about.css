@@ -1,5 +1,56 @@
-.msg {
-  font-size: 22px;
-  margin: 200px;
-  text-align: center;
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: roboto, arial;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  /* background-color: rgb(34, 34, 34); */
+  background-image: url("/images/green-bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #0B3D02;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.about-headers {
+  font-size: 32px;
+}
+
+.about-paras {
+  font-size: 16px;
+  line-height: 2;
+}
+
+@media (max-width: 900px) {
+  .about {
+    width: 86%;
+  }
+
+  .about-headers {
+    font-size: 42px;
+  }
+
+  .about-paras {
+    font-size: 18px;
+  }
 }

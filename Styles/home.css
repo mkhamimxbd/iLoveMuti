@@ -1,9 +1,14 @@
 body {
   margin: 0;
+  
 }
 
 main {
-  background-color: #B3BFFF;
+  /* background-color: #B3BFFF; */
+  background-image: url("/images/pink-blue-bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .contents {
@@ -65,7 +70,7 @@ main {
   
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .content-thumbnail {
     width: 320px;
   }
