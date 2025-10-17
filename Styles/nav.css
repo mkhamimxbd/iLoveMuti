@@ -12,6 +12,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  box-shadow: 0 2px 20px #a3a3a3;
 }
 
 nav {
@@ -20,7 +22,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
 }
 
 .logo {
