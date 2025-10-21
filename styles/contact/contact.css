@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-image: url("/assets/img/white-bg-1.jpg");
+  background-image: url("/assets/img/white-bg-1.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -71,7 +71,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/img/blue-bg-6.jpg");
+  background-image: url("/assets/img/blue-bg-6.webp");
   background-repeat: no-repeat;
   background-size: cover;
   color: #def2ff;
