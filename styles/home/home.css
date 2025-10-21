@@ -4,8 +4,7 @@ body {
 }
 
 main {
-  /* background-color: #B3BFFF; */
-  background-image: url("/images/pink-blue-bg-2.jpg");
+  background-image: url("/assets/img/pink-blue-bg-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 

@@ -142,11 +142,11 @@ const affirmationArr = [
 let affirmationSentence = document.getElementById("affirmation-sentence")
 let typingInterval
 const music = new
-Audio("Music/piano-1.mp3")
+Audio("/assets/music/piano-1.mp3")
 
-fetch('/nav.html')
+fetch('/header.html')
       .then(res => res.text())
-      .then(html => document.getElementById('navbar').innerHTML = html);
+      .then(html => document.getElementById('header').innerHTML = html);
 fetch('/footer.html')
       .then(res => res.text())
       .then(html => document.getElementById('footer').innerHTML = html);

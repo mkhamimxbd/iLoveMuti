@@ -6,7 +6,7 @@ body {
 
 header {
   /* background-color: #FFF58A; */
-  background-image: url("/images/yellow-bg-1.jpg");
+  background-image: url("/assets/img/yellow-bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: sticky;

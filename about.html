@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Styles/about.css">
+  <link rel="stylesheet" href="styles/about/about.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Funnel+Display:wght@300..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <div id="navbar"></div>
+    <div id="header"></div>
   </header>
   <main>
     <div class="about">
@@ -30,9 +30,9 @@
     </div>
   </main>
   <script>
-    fetch('/nav.html')
+    fetch('/header.html')
       .then(res => res.text())
-      .then(html => document.getElementById('navbar').innerHTML = html);
+      .then(html => document.getElementById('header').innerHTML = html);
     fetch('/footer.html')
   </script>
 </body>

@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Styles/others.css">
+  <link rel="stylesheet" href="styles/others/others.css">
   <title>Others</title>
 </head>
 <body>
   <header>
-    <div id="navbar"></div>
+    <div id="header"></div>
   </header>
   <main>
     <div class="msg">Under Development...</div>
   </main>
   <script>
-    fetch('/nav.html')
+    fetch('/header.html')
       .then(res => res.text())
-      .then(html => document.getElementById('navbar').innerHTML = html);
+      .then(html => document.getElementById('header').innerHTML = html);
     fetch('/footer.html')
   </script>
 </body>

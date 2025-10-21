@@ -14,8 +14,7 @@ body {
 }
 
 main {
-  /* background-color: rgb(34, 34, 34); */
-  background-image: url("/images/green-bg-2.jpg");
+  background-image: url("/assets/img/green-bg-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #0B3D02;
@@ -27,7 +26,6 @@ main {
 .about {
   display: flex;
   flex-direction: column;
-  /* background-color: red; */
   width: 50%;
   justify-content: space-evenly;
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Styles/home.css">
+  <link rel="stylesheet" href="Styles/home/home.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -15,7 +15,7 @@
 
 <body>
   <header>
-    <div id="navbar"></div>
+    <div id="header"></div>
   </header>
   <main>
     <div class="all-contents">
@@ -23,7 +23,7 @@
         <div class="content">
           <div class="thumbnail">
             <a href="random-affirmation.html">
-              <img src="images/random-affirmation-thumbnail.png" alt="content"
+              <img src="assets/img/random-affirmation-thumbnail.png" alt="content"
                 class="content-thumbnail present-content">
               <!-- <span class="new-content">NEW</span> -->
             </a>
@@ -33,7 +33,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
             <div class="content-name">Text Notes</div>
           </div>
@@ -41,7 +41,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Audio Notes</div>
@@ -49,7 +49,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Video Notes</div>
@@ -57,7 +57,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Letters</div>
@@ -65,7 +65,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Countdowns</div>
@@ -73,7 +73,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Virtual Date Idea Generator</div>
@@ -81,7 +81,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Daily Quiz</div>
@@ -89,7 +89,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Group Chat</div>
@@ -97,7 +97,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Memory Throwbacks</div>
@@ -105,7 +105,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Mini Games</div>
@@ -113,7 +113,7 @@
         <div class="content coming-soon">
           <div class="thumbnail">
             <a href="">
-              <img src="images/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
+              <img src="assets/img/coming soon.png" alt="content" class="content-thumbnail coming-soon-thumbnail">
             </a>
           </div>
           <div class="content-name">Ask me a Question</div>
@@ -126,9 +126,9 @@
   </footer>
 
   <script>
-    fetch('/nav.html')
+    fetch('/header.html')
       .then(res => res.text())
-      .then(html => document.getElementById('navbar').innerHTML = html);
+      .then(html => document.getElementById('header').innerHTML = html);
     fetch('/footer.html')
       .then(res => res.text())
       .then(html => document.getElementById('footer').innerHTML = html);

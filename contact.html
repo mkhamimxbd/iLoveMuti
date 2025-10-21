@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Styles/contact.css">
+  <link rel="stylesheet" href="styles/contact/contact.css">
   <title>Contact</title>
 </head>
 
 <body>
   <header>
-    <div id="navbar"></div>
+    <div id="header"></div>
   </header>
   <main>
     <div class="warning-div">
@@ -19,7 +19,7 @@
     <div class="contacts">
       <div class="contact gmail">
         <a href="https://gmail.com" target="_blank">
-          <img src="logos/gmail.svg" alt="Gmail" class="contact-logos">
+          <img src="assets/svg/gmail.svg" alt="Gmail" class="contact-logos">
         </a>
         <div class="contact-info">
           <a href="mailto:mkhamimbd@gmail.com?subject=Hello%20there!" class="contact-direct-link" target="_blank">
@@ -29,7 +29,7 @@
       </div>
       <div class="contact github">
         <a href="https://github.com" target="_blank">
-          <img src="logos/github.svg" alt="GitHub" class="contact-logos">
+          <img src="assets/svg/github.svg" alt="GitHub" class="contact-logos">
         </a>
         <div class="contact-info">
           <a href="https://github.com/mkhamimxbd/" class="contact-direct-link" target="_blank">
@@ -39,7 +39,7 @@
       </div>
       <div class="contact linkedin">
         <a href="https://linkedin.com" target="_blank">
-          <img src="logos/linkedin.svg" alt="linkedin" class="contact-logos">
+          <img src="assets/svg/linkedin.svg" alt="linkedin" class="contact-logos">
         </a>
         <div class="contact-info">
           <a href="https://linkedin.com/in/mkhamimxbd/" class="contact-direct-link" target="_blank">
@@ -49,7 +49,7 @@
       </div>
       <div class="contact whatsapp">
         <a href="https://whatsapp.com" target="_blank">
-          <img src="logos/whatsapp.svg" alt="Whatsapp" class="contact-logos">
+          <img src="assets/svg/whatsapp.svg" alt="Whatsapp" class="contact-logos">
         </a>
         <div class="contact-info">
           <a href="https://wa.me/8801760964512" class="contact-direct-link" target="_blank">
@@ -59,7 +59,7 @@
       </div>
       <div class="contact instagram">
         <a href="https://instagram.com" target="_blank">
-          <img src="logos/instagram.svg" alt="Instagram" class="contact-logos">
+          <img src="assets/svg/instagram.svg" alt="Instagram" class="contact-logos">
         </a>
         <div class="contact-info">
           <a href="https://www.instagram.com/mkhamimxbd/" class="contact-direct-link" target="_blank">
@@ -69,7 +69,7 @@
       </div>
       <div class="contact x">
         <a href="https://x.com" target="_blank">
-          <img src="logos/x.svg" alt="X" class="contact-logos">
+          <img src="assets/svg/x.svg" alt="X" class="contact-logos">
         </a>
         <div class="contact-info">
           <a href="https://x.com/mkhamimxbd" class="contact-direct-link" target="_blank">
@@ -79,7 +79,7 @@
       </div>
       <div class="contact freecodecamp">
         <a href="https://freecodecamp.org" target="_blank">
-          <img src="logos/freecodecamp.svg" alt="FreeCodeCamp" class="contact-logos">
+          <img src="assets/svg/freecodecamp.svg" alt="FreeCodeCamp" class="contact-logos">
         </a>
         <div class="contact-info">
           <a href="https://freecodecamp.org/mkhamimxbd" class="contact-direct-link" target="_blank">
@@ -95,9 +95,9 @@
     </div>
   </main>
   <script>
-    fetch('/nav.html')
+    fetch('/header.html')
       .then(res => res.text())
-      .then(html => document.getElementById('navbar').innerHTML = html);
+      .then(html => document.getElementById('header').innerHTML = html);
     fetch('/footer.html')
   </script>
 </body>
